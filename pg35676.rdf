@@ -1,168 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/35676">
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nb1545feec790405da8f4fbe51508a079">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nd3bc284d6b4a40b798e2bb03f8b792ab">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-25</dcterms:issued>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5e8ac90fc5b543e58d213d2e5fce07b5">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PR</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/35676/35676-0.txt">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">761230</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb99fcce836d0466983fb76e0888f3e25">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="Nb2ca2684052a4e00b7741ba73b55d419">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-25T04:47:51</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Neb300e3a7cb44beba3feb1204b698eca">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>DP</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:title>The Bible in Spain, Vol. 2 [of 2]&#13;
+Or, the Journeys, Adventures, and Imprisonments of an Englishman in an Attempt to Circulate the Scriptures in the Peninsula</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12259</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T04:40:04.229851</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbeef6c17af224934a23621fa11fbe51f">
+          <rdf:Description rdf:nodeID="Nea6ce3209c444af883f6ca36771096d6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/37798">
+        <pgterms:name>Greene, Herbert W. (Herbert Wilson)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1857</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/37797">
+        <pgterms:name>Burke, Ulick Ralph</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1845</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N519b9b41fa6842fd860ab24bcf5644c0">
+        <rdf:value>Spain -- Description and travel</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T04:39:52.789041</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1566611</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc706353c0aa84beb9c38a3aac288393c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394153</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N20d6546a4c744a9490fe56fecf5718ad">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">345627</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-26T00:28:33.617241</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T04:39:48.389163</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/35676/35676-h/35676-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb4216ca9bd304d18a441631e18009c5b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">907619</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-25T05:01:40</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/35676/35676-0.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-25T05:09:39</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293723</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">907619</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N010410f0d8974ecc9692f8f9a37036ee">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="Nad9bc7c042374d8c96c2776b2b62ed0c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0972c721276a4d71b5e475d5c83c0db6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399468</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35676/35676-0.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N46ec9ec2abbb4045a49a2373782f2a55">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="N42ea5449c12246c4a95f638d13417ea9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-26T00:28:34.806682</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>The Bible in Spain - Vol. 2 [of 2]</dcterms:title>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/37798">
-        <pgterms:name>Greene, Herbert W.</pgterms:name>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/35676/35676-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">749221</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-25T05:09:39</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293723</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3d500e5e31294809a73690a5a67a812b">
+          <rdf:Description rdf:nodeID="N9ca237ab8bd341f8802dda16def58830">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N92705bf8441a4fd0be761205b6aa9403">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-25</dcterms:issued>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/37797">
-        <pgterms:name>Burke, Ulick Ralph</pgterms:name>
-      </pgterms:agent>
-    </marcrel:edt>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6ca4736f0d744a6d9f9874810afddf4a">
+        <rdf:value>Spain -- History -- 19th century</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.kindle.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">340288</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5eae980782a4a3090a03ba5ccf299d6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N958e10c19f7c4245a22ca0f690347a4f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T04:39:48.889151</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570748</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-26T00:28:40.093805</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35676.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">518236</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-17T04:40:02.259881</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N791a83cb68a34ab4bb736e54a768e1d8">
+          <rdf:Description rdf:nodeID="N77dc1175a4254cc1886bd91b7971f748">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1460218</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35676/35676-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5b634e7323b6499a82d4c109b7f466a2">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-26T00:28:37.635002</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">749221</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/35676"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9255294f92e7410b87d1ede68b857d58">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-25T05:09:39</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Na2a41f4787cc42a2ab6682611d8eed43">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na21737aebc814e6181c1c582bebf4f6d">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Borrow, George, 1803-1881 -- Travel -- Spain</rdf:value>
       </rdf:Description>
-    </dcterms:language>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nc2712c6de5684116969ad22338494f9b">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
+    </dcterms:subject>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/4383">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/George_Borrow"/>
-        <pgterms:alias>Borrow, George Henry</pgterms:alias>
-        <pgterms:name>Borrow, George</pgterms:name>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1803</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/George_Borrow"/>
+        <pgterms:name>Borrow, George</pgterms:name>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1881</pgterms:deathdate>
+        <pgterms:alias>Borrow, George Henry</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/George_Borrow">
     <dcterms:description>Wikipedia</dcterms:description>
